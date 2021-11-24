@@ -1,0 +1,50 @@
+body {
+    background-color: #D5D977;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2{
+    color: sienna;
+}
+
+
+h3 {
+    color: teal;
+}
+
+.list-nav {
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    width: 200px;
+}
+
+#first-ul {
+    background-color: brown;
+}
+
+.foto-primaria {
+    float: right;
+    width: 400px;
+    }
+
+#primeiro-para {
+    height: 250px;
+    width: 300px;
+}
+
+#second-ul {
+    height: 250px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    
+}
+
+footer {
+    background-color: chocolate;
+    text-align: center;
+}
