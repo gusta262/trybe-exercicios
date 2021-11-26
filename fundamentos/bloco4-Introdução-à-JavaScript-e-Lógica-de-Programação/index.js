@@ -51,14 +51,30 @@
 
 // programa 4 
 
-const a4 = 10;
+// const a4 = 10;
 
-if (a4 > 0) {
-    console.log("positive");
+// if (a4 > 0) {
+//     console.log("positive");
+// }
+// else if (a4 < 0) {
+//     console.log("negative");
+// }
+// else {
+//     console.log("zero");
+// }
+
+// programa 5 
+
+const a5 = 60;
+const b5 = 60;
+const c5 = 60;
+
+if (a5 > 0 && b5 > 0 && c5 > 0 && a5 + b5 + c5 == 180) {
+    console.log("é um triangulo!!") 
 }
-else if (a4 < 0) {
-    console.log("negative");
+else if (a5 < 0 || b5 < 0 || c5 < 0) {
+    console.log("não existe ângulo negativo!!")
 }
 else {
-    console.log("zero");
+    console.log("não é um triangulo!!")
 }
