@@ -1,4 +1,4 @@
-//1
+// programa 1
 
 // const a = 10;
 // const b = 15;
@@ -18,7 +18,7 @@
 // const modulo = a % b;
 // console.log(modulo)
 
-// 2
+// programa 2
 
 // const a2 = 10;
 // const b2 = 15;
@@ -33,18 +33,32 @@
 //     console.log("são iguais");
 // }
 
-// 3
+// programa 3
 
-const a3 = 100;
-const b3 = 50;
-const c3 = 25;
+// const a3 = 100;
+// const b3 = 50;
+// const c3 = 25;
 
-if (a3 > b3 && a3 > c3) {
-    console.log("a3 é o maior número")
+// if (a3 > b3 && a3 > c3) {
+//     console.log("a3 é o maior número");
+// }
+// else if (b3 > a3 && b3 > c3) {
+//     console.log("b3 é o maior número");
+// }
+// else {
+//     console.log("c3 é o maior número");
+// }
+
+// programa 4 
+
+const a4 = 10;
+
+if (a4 > 0) {
+    console.log("positive");
 }
-else if (b3 > a3 && b3 > c3) {
-    console.log("b3 é o maior número")
+else if (a4 < 0) {
+    console.log("negative");
 }
 else {
-    console.log("c3 é o maior número")
+    console.log("zero");
 }
