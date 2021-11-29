@@ -53,13 +53,30 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 //ex 6
 
-let menor = numbers[0];
+// let menor = numbers[0];
+
+// for (let index = 0; index < numbers.length; index += 1) {
+//     if (numbers[index] <= menor) {
+//         menor = numbers[index];
+//     }
+// }
+
+// console.log(menor)
+
+//ex 7
+
+let contador = 0;
 
 for (let index = 0; index < numbers.length; index += 1) {
-    if (numbers[index] <= menor) {
-        menor = numbers[index];
+    if (numbers[index] % 2 !== 0) {
+        contador += 1;
     }
 }
 
-console.log(menor)
+if (contador === 0) {
+    console.log('nenhum valor ímpar encontrado');
+}
+else {
+    console.log(contador);
+}
 
