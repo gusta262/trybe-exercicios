@@ -29,7 +29,7 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // for (let index = 0; index < numbers.length; index += 1) {
 //     conta += numbers[index];
 // }
-    
+
 // conta = conta / numbers.length;
 
 // if (conta > 20) {
@@ -40,12 +40,26 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // }
 
 //ex 5 
-let maioral = 0;
+
+// let maioral = 0;
+
+// for (let index = 0; index < numbers.length; index += 1) {
+//     if (numbers[index] > maioral) {
+//         maioral = numbers[index];
+//     }
+// }
+
+// console.log(maioral);
+
+//ex 6
+
+let menor = numbers[0];
 
 for (let index = 0; index < numbers.length; index += 1) {
-    if (numbers[index] > maioral) {
-        maioral = numbers[index];
+    if (numbers[index] <= menor) {
+        menor = numbers[index];
     }
 }
 
-console.log(maioral);
+console.log(menor)
+
