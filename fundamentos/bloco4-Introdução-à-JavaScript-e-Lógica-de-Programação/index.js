@@ -65,18 +65,27 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 //ex 7
 
-let contador = 0;
+// let contador = 0;
 
-for (let index = 0; index < numbers.length; index += 1) {
-    if (numbers[index] % 2 !== 0) {
-        contador += 1;
-    }
+// for (let index = 0; index < numbers.length; index += 1) {
+//     if (numbers[index] % 2 !== 0) {
+//         contador += 1;
+//     }
+// }
+
+// if (contador === 0) {
+//     console.log('nenhum valor ímpar encontrado');
+// }
+// else {
+//     console.log(contador);
+// }
+
+//ex 8
+let array = [];
+
+for (let index = 1; index <= 25; index += 1) {
+    array.push(index);
 }
 
-if (contador === 0) {
-    console.log('nenhum valor ímpar encontrado');
-}
-else {
-    console.log(contador);
-}
+console.log(array);
 
