@@ -81,11 +81,24 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // }
 
 //ex 8
+
+
+// let array = [];
+
+// for (let index = 1; index <= 25; index += 1) {
+//     array.push(index);
+// }
+
+// console.log(array);
+
+//ex 9 
+
 let array = [];
 
 for (let index = 1; index <= 25; index += 1) {
     array.push(index);
 }
 
-console.log(array);
-
+for (let indice = 0; indice < array.length; indice += 1) {
+    console.log(array[indice] / 2);
+}
