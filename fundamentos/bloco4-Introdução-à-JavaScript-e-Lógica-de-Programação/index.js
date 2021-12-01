@@ -93,12 +93,15 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 //ex 9 
 
-let array = [];
+// let array = [];
 
-for (let index = 1; index <= 25; index += 1) {
-    array.push(index);
-}
+// for (let index = 1; index <= 25; index += 1) {
+//     array.push(index);
+// }
 
-for (let indice = 0; indice < array.length; indice += 1) {
-    console.log(array[indice] / 2);
-}
+// for (let indice = 0; indice < array.length; indice += 1) {
+//     console.log(array[indice] / 2);
+// }
+
+// bonus 
+
