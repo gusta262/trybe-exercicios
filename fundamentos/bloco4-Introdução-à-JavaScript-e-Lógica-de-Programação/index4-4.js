@@ -1,12 +1,16 @@
-function palindromo (str) {
-  let reverse = str.split('').reverse().join('');
+function indiceMaior (array) {
+  let maior = 0;
 
-  if (reverse === str) {
-    return true
+  for (let index in array) {
+    if (array[index] > maior) {
+      maior = array[index];
+      maior = index;
+    }
+    else {
+      
+    }
   }
-  else {
-    return false
-  }
-};
+  return maior
+}
 
-console.log(palindromo('cuzinho'));
+console.log(indiceMaior([2, 3, 6, 7, 10, 1]));
