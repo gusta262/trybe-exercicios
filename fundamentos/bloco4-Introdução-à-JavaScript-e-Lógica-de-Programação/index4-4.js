@@ -1,16 +1,17 @@
-function indiceMaior (array) {
-  let maior = 0;
+function menorIndice (array) {
+  let menor = Math.max(...array);
 
   for (let index in array) {
-    if (array[index] > maior) {
-      maior = array[index];
-      maior = index;
-    }
-    else {
-      
+    if (menor > array[index]) {
+      menor = array[index]; 
     }
   }
-  return maior
+  for (let index1 in array){
+    if (array[index1] === menor) {
+      indice = index1;
+    }
+  }
+  return indice
 }
 
-console.log(indiceMaior([2, 3, 6, 7, 10, 1]));
+console.log(menorIndice([2, 4, 6, 7, 10, 0, -3]));
