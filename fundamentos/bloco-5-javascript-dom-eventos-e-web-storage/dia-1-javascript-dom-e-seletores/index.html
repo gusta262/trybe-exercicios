@@ -77,6 +77,20 @@
            corr.innerText = 'Exercício 5.1 - JavaScript';
        }
        corrigiH1();
+
+       function corrigiP () {
+           let pa = document.getElementsByTagName('p')[0];
+           pa.innerHTML = pa.innerHTML.toUpperCase();
+       }
+       corrigiP();
+
+       function exib () {
+           let exib = document.getElementsByTagName('p');
+           for (let index in exib) {
+               console.log(exib[index].innerHTML);
+           }
+       }
+       exib();
     </script>
   </body>
 </html>
