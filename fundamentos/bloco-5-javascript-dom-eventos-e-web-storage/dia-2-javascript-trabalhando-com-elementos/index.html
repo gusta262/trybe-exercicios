@@ -99,6 +99,18 @@
        img.src = 'https://picsum.photos/200';
        leftSection.appendChild(img);
 
+       // ex 8 
+
+       let list = document.createElement('ul');
+       rightSection.appendChild(list);
+       let array = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+    
+       for (let index in array) {
+           let item = document.createElement('li');
+           item.innerText = array[index];
+           ul.appendChild(item);
+       }
+
        
     </script>
   </body>
