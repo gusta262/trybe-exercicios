@@ -124,7 +124,13 @@
        let title = document.getElementsByTagName('h1');
        title.className = 'title';
 
-       
+       // ex 2.2
+
+       let h3s = document.getElementsByTagName('h3');
+
+       for (let index = 1; index < 4; index += 1) {
+           h3s[index].className = 'description';
+       }
     </script>
   </body>
 </html>
