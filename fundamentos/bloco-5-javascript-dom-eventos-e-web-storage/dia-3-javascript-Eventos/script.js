@@ -43,4 +43,12 @@ function createDaysOfTheWeek() {
 
   colocaDias();
 
-  
+  function createButton (string) {
+    let ondeVai = document.querySelector('.buttons-container');
+    let dinamicButton = document.createElement('button');
+    dinamicButton.id = 'btn-holiday'
+    dinamicButton.innerHTML = string;
+    ondeVai.appendChild(dinamicButton);
+}
+
+createButton('Feriados');
