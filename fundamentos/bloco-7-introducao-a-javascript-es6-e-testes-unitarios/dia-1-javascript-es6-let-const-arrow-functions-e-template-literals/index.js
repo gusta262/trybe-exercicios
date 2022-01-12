@@ -1,16 +1,5 @@
-const longestword = phrase => {
-    let phraseArray = phrase.split(' ');
-    let cont = 0;
-    let resultado = '';
+let btn = document.getElementById('xablau');
+let text = document.getElementById('texto');
+let contador = 0;
 
-    for (let word of phraseArray) {
-        if (word.length > cont) {
-            cont = word.length;
-            resultado = word;
-        }
-    }
-
-    return resultado;
-}
-
-console.log(longestword('Antonio foi no banheiro e não sabemos o que aconteceu'));
+btn.addEventListener("click", () => text.innerHTML = contador += 1);
