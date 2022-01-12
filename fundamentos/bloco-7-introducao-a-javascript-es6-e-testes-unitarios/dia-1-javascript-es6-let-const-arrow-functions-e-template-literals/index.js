@@ -1,13 +1,16 @@
-const number = 10;
+const longestword = phrase => {
+    let phraseArray = phrase.split(' ');
+    let cont = 0;
+    let resultado = '';
 
-const fatorialFun = (num) => {
-    let fatorialNum = 1
-
-    for (let index = 1; index <= num; index += 1) {
-        fatorialNum *= index;
+    for (let word of phraseArray) {
+        if (word.length > cont) {
+            cont = word.length;
+            resultado = word;
+        }
     }
 
-    return fatorialNum;
+    return resultado;
 }
 
-console.log(fatorialFun(number));
+console.log(longestword('Antonio foi no banheiro e não sabemos o que aconteceu'));
