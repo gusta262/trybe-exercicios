@@ -1,18 +1,13 @@
-const oddsAndEvens = [13, 3, 4, 10, 7, 2];
+const number = 10;
 
-// Seu código aqui.
+const fatorialFun = (num) => {
+    let fatorialNum = 1
 
-const oddsFun = () => {
-    oddsAndEvens[0] = 2
-    oddsAndEvens[1] = 3
-    oddsAndEvens[2] = 4
-    oddsAndEvens[3] = 7
-    oddsAndEvens[4] = 10
-    oddsAndEvens[5] = 13
+    for (let index = 1; index <= num; index += 1) {
+        fatorialNum *= index;
+    }
 
-    return oddsAndEvens
+    return fatorialNum;
 }
 
-const oddsOrdem = oddsFun();
-
-console.log(oddsOrdem); // será necessário alterar essa linha 😉
+console.log(fatorialFun(number));
