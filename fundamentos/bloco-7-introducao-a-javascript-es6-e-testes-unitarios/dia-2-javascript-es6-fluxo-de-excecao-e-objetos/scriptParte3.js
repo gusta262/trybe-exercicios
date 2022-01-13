@@ -34,21 +34,19 @@ const lesson1 = {
       return contadorKeys;
   }
 
-  console.log(countKeys(lesson2));
+  
 
  const sizeObject = (obj) => {
     let sizeObj = Object.keys(obj).length
     return sizeObj;
  }
 
- console.log(sizeObject(lesson1));
+ 
 
  const listValues = (obj) => {
     let arrayValues = Object.values(obj);
     return arrayValues
  }
-
- console.log(listValues(lesson3));
 
  const allLessons ={};
 
@@ -70,11 +68,23 @@ const lesson1 = {
      
  }
 
- console.log(countStudents(allLessons));
-
  const objValuePosition = (obj, position) => {
      let resultValue = Object.values(obj)[position];
      return resultValue;
  }
 
- console.log(objValuePosition(lesson2, 3));
+ 
+ const verifyPar = (obj, key, valueKey) => {
+     const arrayObject = Object.entries(obj);
+     let resposta = true;
+
+     for (let index = 0; index < arrayObject.length; index += 1) {
+         if (arrayObject[index][0] === key && arrayObject[index][1]) {
+            return resposta;
+         }
+     }
+
+     return resposta = false;
+ }
+
+ console.log(verifyPar(lesson3, 'turn', 'noite'));
