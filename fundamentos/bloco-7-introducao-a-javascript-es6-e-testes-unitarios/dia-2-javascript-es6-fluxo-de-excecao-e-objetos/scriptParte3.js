@@ -50,7 +50,7 @@ const lesson1 = {
 
  console.log(listValues(lesson3));
 
- const allLessons = {};
+ const allLessons ={};
 
  Object.assign(allLessons, {lesson1, lesson2, lesson3});
 
