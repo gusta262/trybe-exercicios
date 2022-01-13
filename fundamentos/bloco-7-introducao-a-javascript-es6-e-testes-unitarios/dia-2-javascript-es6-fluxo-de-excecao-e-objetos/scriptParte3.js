@@ -71,3 +71,10 @@ const lesson1 = {
  }
 
  console.log(countStudents(allLessons));
+
+ const objValuePosition = (obj, position) => {
+     let resultValue = Object.values(obj)[position];
+     return resultValue;
+ }
+
+ console.log(objValuePosition(lesson2, 3));
