@@ -23,9 +23,13 @@
             const value2 = document.getElementById('value2').value;
 
             if (value1 === '' || value2 === '' || value1 === '' & value2 === '') {
-                document.getElementById('result').innerHTML = 'ERRO: preencha os dois campos';
+                document.getElementById('result').innerHTML = 'ERRO: preencha os dois campos (com números)';
 
                 throw new Error('ERRO: preencha os dois campos');
+            } else if (isNaN(value1) || isNaN(value2 || isNaN(value1) & isNaN(value2))) {
+                document.getElementById('result').innerHTML = 'ERRO: digite apenas números nos campos!';
+
+                throw new Error('ERRO: digite apenas números nos campos!');
             }
         };
 
@@ -35,7 +39,7 @@
                 const value2 = document.getElementById('value2').value;
 
                 verifyInputs();
-                
+
                 const result = parseInt(value1) + parseInt(value2);
                 document.getElementById('result').innerHTML = `Resultado: ${result}`;
                 document.getElementById('value1').value = '';
