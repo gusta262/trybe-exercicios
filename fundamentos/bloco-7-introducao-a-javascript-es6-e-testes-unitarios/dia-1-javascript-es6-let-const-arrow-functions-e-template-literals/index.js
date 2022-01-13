@@ -1,5 +1,6 @@
-let btn = document.getElementById('xablau');
-let text = document.getElementById('texto');
-let contador = 0;
+let stringDeterminada = 'TESTE X TESTE X TESTE X TESTE X TESTE X'
 
-btn.addEventListener("click", () => text.innerHTML = contador += 1);
+
+const deusmeajuda = str => {
+
+}
