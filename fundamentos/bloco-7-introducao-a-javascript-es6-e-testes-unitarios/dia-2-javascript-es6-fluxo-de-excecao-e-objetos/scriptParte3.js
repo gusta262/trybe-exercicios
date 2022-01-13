@@ -54,4 +54,20 @@ const lesson1 = {
 
  Object.assign(allLessons, {lesson1, lesson2, lesson3});
 
- console.log(allLessons);
+ const countStudents = (allLessons) => {
+     let arrayValues1 = Object.values(allLessons.lesson1);
+     let numStudesntsL1 = arrayValues1[1];
+
+     let arrayValues2 = Object.values(allLessons.lesson2);
+     let numStudesntsL2 = arrayValues2[1];
+
+     let arrayValues3 = Object.values(allLessons.lesson3);
+     let numStudesntsL3 = arrayValues3[1];
+
+     let soma = numStudesntsL1 + numStudesntsL2 + numStudesntsL3
+
+     return soma;
+     
+ }
+
+ console.log(countStudents(allLessons));
