@@ -23,3 +23,15 @@ const lesson1 = {
   }
 
   adicionaTurnoDaNoite(lesson2, 'turno', 'noite');
+
+  const countKeys = (obj) => {
+      let arrayKeys = Object.keys(obj);
+      let contadorKeys = 0;
+      for (let index = 0; index < arrayKeys.length; index += 1) {
+        contadorKeys += 1
+      }
+
+      return contadorKeys;
+  }
+
+  countKeys(lesson2);
