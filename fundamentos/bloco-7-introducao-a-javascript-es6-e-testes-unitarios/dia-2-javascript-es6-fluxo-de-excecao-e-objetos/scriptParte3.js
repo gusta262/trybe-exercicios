@@ -34,4 +34,11 @@ const lesson1 = {
       return contadorKeys;
   }
 
-  countKeys(lesson2);
+  console.log(countKeys(lesson2));
+
+ const sizeObject = (obj) => {
+    let sizeObj = Object.keys(obj).length
+    return sizeObj;
+ }
+
+ console.log(sizeObject(lesson1));
