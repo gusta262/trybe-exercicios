@@ -42,3 +42,10 @@ const lesson1 = {
  }
 
  console.log(sizeObject(lesson1));
+
+ const listValues = (obj) => {
+    let arrayValues = Object.values(obj);
+    return arrayValues
+ }
+
+ console.log(listValues(lesson3));
