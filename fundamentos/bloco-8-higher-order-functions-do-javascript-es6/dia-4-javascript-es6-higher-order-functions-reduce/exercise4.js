@@ -63,12 +63,13 @@ const books = [
   
   // Adicione o código do exercício aqui:
 
-  function averageAge() {
-    const valorADividir = books.length;
+  function longestNamedBook() {
+    return books.reduce((acc, curr) => {
+        if (curr.name.length > acc.name.length) {
+            return curr
+        }
+        return acc
+    });
+  };
 
-    const somaIdades = books.reduce((acc, curr) => acc + (curr.releaseYear - curr.author.birthYear), 0);
-
-    return somaIdades / valorADividir;
-  }
-
-  console.log(averageAge());
+  console.log(longestNamedBook());
