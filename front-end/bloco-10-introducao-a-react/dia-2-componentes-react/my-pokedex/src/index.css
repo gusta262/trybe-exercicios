@@ -17,7 +17,7 @@ body {
 .pokeCard {
   border: solid black;
   display: flex;
-  -ms-flex-align: center;
+  justify-content: center;
   width: 50%;
   background-color: aliceblue;
   margin: 2px;
