@@ -107,8 +107,74 @@ const pokemons = [
             measurementUnit: "kg"
         },
         image: "https://archives.bulbagarden.net/media/upload/5/59/Spr_5b_007.png",
-        moreInfo: "https://bulbapedia.bulbagarden.net/wiki/Dragonair_(Pok%C3%A9mon)"
-    }
+        moreInfo: "https://bulbapedia.bulbagarden.net/wiki/Squirtle_(Pok%C3%A9mon)"
+    },
+    {
+        id: 5,
+        name: "Charmeleon",
+        type: 'Fire',
+        averageWeight: {
+            value: 19.0,
+            measurementUnit: "kg"
+        },
+        image: "https://archives.bulbagarden.net/media/upload/0/09/Spr_5b_005.png",
+        moreInfo: "https://bulbapedia.bulbagarden.net/wiki/Charmeleon_(Pok%C3%A9mon)"
+    },
+    {
+        id: 6,
+        name: "Charizard",
+        type: 'Fire/Flying',
+        averageWeight: {
+            value: 90.5,
+            measurementUnit: "kg"
+        },
+        image: "https://archives.bulbagarden.net/media/upload/e/e1/Spr_5b_006.png",
+        moreInfo: "https://bulbapedia.bulbagarden.net/wiki/Charizard_(Pok%C3%A9mon)"
+    },
+    {
+        id: 8,
+        name: "Wartortle",
+        type: 'Water',
+        averageWeight: {
+            value: 22.5,
+            measurementUnit: "kg"
+        },
+        image: "https://archives.bulbagarden.net/media/upload/0/0b/Spr_5b_008.png",
+        moreInfo: "https://bulbapedia.bulbagarden.net/wiki/Wartortle_(Pok%C3%A9mon)"
+    },
+    {
+        id: 9,
+        name: "Blastoise",
+        type: 'Water',
+        averageWeight: {
+            value: 85.5,
+            measurementUnit: "kg"
+        },
+        image: "https://archives.bulbagarden.net/media/upload/3/3d/Spr_5b_009.png",
+        moreInfo: "https://bulbapedia.bulbagarden.net/wiki/Blastoise_(Pok%C3%A9mon)"
+    },
+    {
+        id: 172,
+        name: "Pichu",
+        type: 'Eletric',
+        averageWeight: {
+            value: 2,
+            measurementUnit: "kg"
+        },
+        image: "https://archives.bulbagarden.net/media/upload/0/03/Spr_5b2_172.png",
+        moreInfo: "https://bulbapedia.bulbagarden.net/wiki/Pichu_(Pok%C3%A9mon)"
+    },
+    {
+        id: 26,
+        name: "Raichu",
+        type: 'Eletric/Psychic',
+        averageWeight: {
+            value: 30.0,
+            measurementUnit: "kg"
+        },
+        image: "https://archives.bulbagarden.net/media/upload/0/0e/Spr_5b_026_f.png",
+        moreInfo: "https://bulbapedia.bulbagarden.net/wiki/Raichu_(Pok%C3%A9mon)"
+    },
   ];
   
   export default pokemons;

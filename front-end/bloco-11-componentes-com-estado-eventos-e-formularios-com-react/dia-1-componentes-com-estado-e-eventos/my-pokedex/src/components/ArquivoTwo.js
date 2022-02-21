@@ -29,7 +29,8 @@ class ArquivoTwo extends React.Component {
             <div>
                 <input id="search" type="text" onChange={ this.handlePok } /> <BsSearch />
                 <div className="pokeCards">
-                    {poke.filter((a) => a.name.toLowerCase().includes(filtro) ).map((pok) => <ArquivoTestOne poke={pok} key={pok.id} />)}
+                    {poke.filter((a) => a.name.toLowerCase().includes(filtro) )
+                    .map((pok) => <ArquivoTestOne poke={pok} key={pok.id} />)}
                 </div>
             </div>
         )
